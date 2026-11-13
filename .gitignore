@@ -1,0 +1,20 @@
+# 依赖与构建产物
+node_modules/
+build/
+dist/
+tmp/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+*.log
+
+# 打包产物走 GitHub Releases，不进仓库
+*.apk
+*.zip
+*.tar.gz
+
+# 签名密钥绝对不要提交
+*.keystore
+*.jks
+*.p12

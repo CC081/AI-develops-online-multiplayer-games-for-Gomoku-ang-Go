@@ -1,0 +1,11 @@
+{
+  "name": "gomoku-go",
+  "version": "1.0.0",
+  "private": true,
+  "description": "单文件网页五子棋 + 围棋，含零依赖 Node 联机服务端",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["gomoku", "go", "board-game", "canvas", "vanilla-js"],
+  "license": "MIT"
+}

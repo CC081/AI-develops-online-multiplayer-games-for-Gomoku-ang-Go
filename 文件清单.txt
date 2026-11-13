@@ -1,0 +1,32 @@
+五子棋 · 围棋 —— GitHub 开源仓库文件清单
+
+【建议提交到仓库的文件】
+五子棋围棋.html        游戏本体。HTML/CSS/JS/AI 全部内联，浏览器直接打开就能玩
+server.js              联机服务端。Node 原生 http，零第三方依赖，默认端口 8080
+package.json           项目元信息，npm start 等于 node server.js
+README.md              仓库首页展示：功能、截图、快速开始、联机协议、打包说明
+LICENSE                开源协议（MIT），可把版权人改成你自己的名字
+.gitignore             排除 node_modules、APK/ZIP、签名密钥、日志
+CONTRIBUTING.md        贡献指南（怎么提 Issue / PR、代码风格）
+CHANGELOG.md           版本更新记录
+开源发布指南.md         从 git init 到 Releases / Pages 的完整操作步骤
+文件清单.txt            本文件
+docs/开发说明.txt       内部开发与联机流程说明（README.txt 的归档版）
+docs/screenshots/home.jpg    首页截图
+docs/screenshots/go19.jpg    围棋 19 路对局截图
+docs/screenshots/study.jpg   研究模式截图
+.github/ISSUE_TEMPLATE/bug_report.md   GitHub Issue 模板
+
+【不要提交、放 Releases 的文件】
+五子棋围棋_Windows.zip        Windows 整包
+五子棋围棋_Linux.tar.gz       Linux 整包
+五子棋围棋_Android/五子棋围棋.apk   安卓安装包
+五子棋围棋_完整包.zip          三端合集
+*.keystore / *.jks           签名密钥，绝对不能上传
+
+【仓库已初始化】
+本目录已经是 git 仓库，默认分支 main，并完成首次提交。
+解压后只需：
+  cd 五子棋围棋
+  git remote add origin https://github.com/<你的用户名>/<仓库名>.git
+  git push -u origin main
